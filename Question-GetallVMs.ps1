@@ -3,7 +3,7 @@ $jsondata = $au2matorhook | ConvertFrom-Json
 
 
 #Environment
-[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=PS_Template&utm_content=PS1
+[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=PS_Template&utm_content=PS1
 [string]$LogPath = "C:\_SCOworkingDir\TFS\PS-Services\AZURE - Start a VM\LOGS"
 [string]$LogfileName = "Question-GetallVMs"
 

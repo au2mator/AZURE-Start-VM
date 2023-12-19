@@ -5,7 +5,7 @@ au2mator - Self Service Portal is providing a Frontend to trigger your Microsoft
 - <a href="https://www.au2mator.com/orchestrator/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=Readme" target="_blank">System Center Orchestrator</a>
 - <a href="https://www.au2mator.com/AzureAutomation/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=Readme" target="_blank">Azure Automation</a>
 - <a href="https://www.au2mator.com/Powershell/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=Readme" target="_blank">Powershell</a>
-- System Center SMA
+
 
 Start an Azure VM via Azure REST API and au2mator - Self Service Portal
 
@@ -17,9 +17,9 @@ Start an Azure VM via Azure REST API and au2mator - Self Service Portal
 
 # Getting Started
 
-1.	<a href="https://au2mator.com/documentation/install-or-update-au2mator-self-service-portal/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=Readme" target="_blank">Install and Download au2mator - Self Service Portal</a>
+1.	<a href="https://click.au2mator.com/au2matorInstall/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=Readme" target="_blank">Install and Download au2mator - Self Service Portal</a>
 
-2.	<a href="https://au2mator.com/documentation/use-powershell-with-au2mator/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=Readme" target="_blank">Configure au2mator to run PowerShell Scripts</a>
+2.	<a href="https://click.au2mator.com/StartWithPowerShell/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=Readme" target="_blank">Configure au2mator to run PowerShell Scripts</a>
 
 3.	Download and save this PowerShell Script to your au2mator Powershell Script Path
 

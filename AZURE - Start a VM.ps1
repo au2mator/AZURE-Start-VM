@@ -10,7 +10,7 @@
 # Last Update: 04.01.2022
 # Code Template V 1.5
 #
-# URL: https://au2mator.com/documentation/use-powershell-with-au2mator/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
+# URL: https://click.au2mator.com/StartWithPowerShell/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
 # Github: https://github.com/au2mator/au2mator-PS-Templates
 #
 # PreReq: Make sure ActiveDirectory PowerShell is able to install and run
@@ -48,7 +48,7 @@ param (
 ## Environment
 [string]$LogPath = "C:\_SCOworkingDir\TFS\PS-Services\AZURE - Start a VM\LOGS"
 [string]$LogfileName = "AZURE - Start a VM"
-[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
+[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
 
 ## au2mator Settings
 [string]$PortalURL = "http://AVMSRV002.au2mator.local"
@@ -66,7 +66,7 @@ $ToUser = $false #Send the Message Card to the User via Chat
 $TeamName = "au2mator - ORG"
 $ChannelName = "General"
 
-###TeamsCredentials to send Teams Card #https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
+###TeamsCredentials to send Teams Card #https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
 $TeamsCred_File = "TeamsCreds.xml"
 if ($SendTeamsCardToInitiatedByUser -or $SendTeamsCardToTargetUser -or $ToChannel -or $ToUser ) {
     $TeamsCred = Import-CliXml -Path (Get-ChildItem -Path $CredentialStorePath -Filter $TeamsCred_File).FullName
@@ -90,7 +90,7 @@ $SMTPSender = "SelfService@au2mator.com"
 $SMTPPort = "587"
 
 ###Stored Credentials
-###See: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
+###See: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
 $SMTPCredential_method = "Stored" #Stored, Manual
 $SMTPcredential_File = "SMTPCreds.xml"
 $SMTPUser = ""
@@ -108,7 +108,7 @@ if ($SMTPCredential_method -eq "Manual" -and $MailMethod -eq "SMTP") {
 ### GRAPH API Mail Settings
 $saveToSentItems = "true"
 ###Stored Credentials
-###See: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
+###See: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=AZURE_StartVM&utm_content=PS1
 $AzureGraphMailCred_method = "Stored" #Stored, Manual
 $AzureGraphMailCred_File = "AzureGraphMailCreds.xml"
 
